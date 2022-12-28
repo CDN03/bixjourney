@@ -1,0 +1,36 @@
+body {
+    overflow: hidden;
+background-color: transparent;
+}
+.startarea {
+    font-family: 'IranSans';
+}
+.startarea .heading {
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: darkgray;
+    border-radius: 20px;
+    width: 40%;
+}
+.startarea .start button {
+    
+    display: block;
+    font-family: 'IranSans';
+    font-size: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    transition: 0.4s;
+    /*width: 20%;*/
+}
+.startarea .start button:hover {
+    font-size: 25px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(196, 196, 196);
+    /*width: 20%;*/
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    font-family: 'IranSans';
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    justify-items: center;
+    margin: auto 0;
+}
+a {
+    text-decoration: none;
+    color: red;
+    transition: 0.3s;
+}
+a:hover {
+    color: darkred;
+}
